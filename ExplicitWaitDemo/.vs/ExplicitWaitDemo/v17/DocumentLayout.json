@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ThamHT4\\Desktop\\Automation\\SinpleTestFramwork\\ExplicitWaitDemo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8175B67B-0535-4085-B72D-ECAB54EF043D}|ExplicitWaitDemo.csproj|c:\\users\\thamht4\\desktop\\automation\\sinpletestframwork\\explicitwaitdemo\\test\\basetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8175B67B-0535-4085-B72D-ECAB54EF043D}|ExplicitWaitDemo.csproj|solutionrelative:test\\basetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 31,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BaseTest.cs",
+              "DocumentMoniker": "C:\\Users\\ThamHT4\\Desktop\\Automation\\SinpleTestFramwork\\ExplicitWaitDemo\\test\\BaseTest.cs",
+              "RelativeDocumentMoniker": "test\\BaseTest.cs",
+              "ToolTip": "C:\\Users\\ThamHT4\\Desktop\\Automation\\SinpleTestFramwork\\ExplicitWaitDemo\\test\\BaseTest.cs",
+              "RelativeToolTip": "test\\BaseTest.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAIwDkAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T06:15:36.01Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

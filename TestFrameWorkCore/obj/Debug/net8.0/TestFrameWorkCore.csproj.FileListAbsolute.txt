@@ -1,0 +1,13 @@
+D:\FresherAutomationTest\SeleniumDemo\TestFrameWorkCore\bin\Debug\net8.0\TestFrameWorkCore.deps.json
+D:\FresherAutomationTest\SeleniumDemo\TestFrameWorkCore\bin\Debug\net8.0\TestFrameWorkCore.dll
+D:\FresherAutomationTest\SeleniumDemo\TestFrameWorkCore\bin\Debug\net8.0\TestFrameWorkCore.pdb
+D:\FresherAutomationTest\SeleniumDemo\TestFrameWorkCore\obj\Debug\net8.0\TestFrameWorkCore.csproj.AssemblyReference.cache
+D:\FresherAutomationTest\SeleniumDemo\TestFrameWorkCore\obj\Debug\net8.0\TestFrameWorkCore.GeneratedMSBuildEditorConfig.editorconfig
+D:\FresherAutomationTest\SeleniumDemo\TestFrameWorkCore\obj\Debug\net8.0\TestFrameWorkCore.AssemblyInfoInputs.cache
+D:\FresherAutomationTest\SeleniumDemo\TestFrameWorkCore\obj\Debug\net8.0\TestFrameWorkCore.AssemblyInfo.cs
+D:\FresherAutomationTest\SeleniumDemo\TestFrameWorkCore\obj\Debug\net8.0\TestFrameWorkCore.csproj.CoreCompileInputs.cache
+D:\FresherAutomationTest\SeleniumDemo\TestFrameWorkCore\obj\Debug\net8.0\TestFrameWorkCore.sourcelink.json
+D:\FresherAutomationTest\SeleniumDemo\TestFrameWorkCore\obj\Debug\net8.0\TestFrameWorkCore.dll
+D:\FresherAutomationTest\SeleniumDemo\TestFrameWorkCore\obj\Debug\net8.0\refint\TestFrameWorkCore.dll
+D:\FresherAutomationTest\SeleniumDemo\TestFrameWorkCore\obj\Debug\net8.0\TestFrameWorkCore.pdb
+D:\FresherAutomationTest\SeleniumDemo\TestFrameWorkCore\obj\Debug\net8.0\ref\TestFrameWorkCore.dll
