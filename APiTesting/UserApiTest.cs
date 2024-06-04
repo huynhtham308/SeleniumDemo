@@ -1,45 +1,42 @@
-﻿using RestSharp;
-using System.Diagnostics;
-using TestFrameWorkCore.Helper;
-using FluentAssertions;
-using System.Net;
-using APiTesting.Model;
-using Newtonsoft.Json;
-namespace APiTesting
-{
+﻿namespace APiTesting {
     [TestClass]
-    public class UserApiTest
-    {
+    public class UserApiTest {
 
         private RestClient client;
         [TestInitialize]
-        public void TestInit()
-        {
+        public void TestInit() {
             client = new RestClient(ConfigurationHelper.GetConfig<String>("url"));
         }
         [TestMethod("TC05: Get List User")]
-        public void VerifyGetListUser()
-        {
+        public void VerifyGetListUser() {
 
 
             int randomePage = new Random().Next(1, 11);
             var request = new RestRequest($"/api/users?page={randomePage}", Method.Get);
-      
+
             RestResponse response = client.Execute(request);
             response.StatusCode.Should().Be(HttpStatusCode.OK);
 
             GetUserModel getUserModel = JsonConvert.DeserializeObject<GetUserModel>(response.Content);
             getUserModel.page.Should().Be(randomePage);
+            /*
+             int randomePage = new Random().Next(1, 11);
+            var request = new RestRequest($"/api/users?page={randomePage}", Method.Get);
+
+            RestResponse response = client.Execute(request);
+            response.StatusCode.Should().Be(HttpStatusCode.OK);
+
+            GetUserModel getUserModel = JsonConvert.DeserializeObject<GetUserModel>(response.Content);
+            getUserModel.page.Should().Be(randomePage);
+            */
 
         }
         [TestMethod("TC06: Create a new user")]
-        public void VerifyCreateNewUser()
-        {
+        public void VerifyCreateNewUser() {
 
 
             var request = new RestRequest("/api/users", Method.Post);
-            var requestModel = new CreateUserRequestModel
-            {
+            var requestModel = new CreateUserRequestModel {
                 Name = "Tham" + DateTime.Now.ToFileTimeUtc(),
                 Job = "Automation Test",
             };
