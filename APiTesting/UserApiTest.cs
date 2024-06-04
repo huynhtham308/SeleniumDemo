@@ -30,6 +30,46 @@ namespace APiTesting
 
             GetUserModel getUserModel = JsonConvert.DeserializeObject<GetUserModel>(response.Content);
             getUserModel.page.Should().Be(randomePage);
+            /*
+             int randomePage = new Random().Next(1, 11);
+            var request = new RestRequest($"/api/users?page={randomePage}", Method.Get);
+            /*
+             int randomePage = new Random().Next(1, 11);
+            var request = new RestRequest($"/api/users?page={randomePage}", Method.Get);
+            /*
+             int randomePage = new Random().Next(1, 11);
+            var request = new RestRequest($"/api/users?page={randomePage}", Method.Get);
+      
+            RestResponse response = client.Execute(request);
+            /*
+             int randomePage = new Random().Next(1, 11);
+            var request = new RestRequest($"/api/users?page={randomePage}", Method.Get);
+      
+            RestResponse response = client.Execute(request);
+            response.StatusCode.Should().Be(HttpStatusCode.OK);
+
+            GetUserModel getUserModel = JsonConvert.DeserializeObject<GetUserModel>(response.Content);
+            getUserModel.page.Should().Be(randomePage);
+            */
+            response.StatusCode.Should().Be(HttpStatusCode.OK);
+
+            GetUserModel getUserModel = JsonConvert.DeserializeObject<GetUserModel>(response.Content);
+            getUserModel.page.Should().Be(randomePage);
+            */
+      
+            RestResponse response = client.Execute(request);
+            response.StatusCode.Should().Be(HttpStatusCode.OK);
+
+            GetUserModel getUserModel = JsonConvert.DeserializeObject<GetUserModel>(response.Content);
+            getUserModel.page.Should().Be(randomePage);
+            */
+      
+            RestResponse response = client.Execute(request);
+            response.StatusCode.Should().Be(HttpStatusCode.OK);
+
+            GetUserModel getUserModel = JsonConvert.DeserializeObject<GetUserModel>(response.Content);
+            getUserModel.page.Should().Be(randomePage);
+            */
 
         }
         [TestMethod("TC06: Create a new user")]
