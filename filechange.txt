@@ -1,0 +1,16 @@
+                      <a
+                        className="view-all-result"
+                        style={{ display: "block" }}
+                      >
+                        Xem tất cả
+                      </a>
+                    ) : (
+                      <a
+                        className="view-all-result"
+                        style={{ display: "none" }}
+                      />
+                    )}
+                  </div>
+                  {/* <div className="result-noitem  font-extralight text-center"></div>
+                  <div className="loading animate-spin "></div> */}
+                {/* </div> */}
