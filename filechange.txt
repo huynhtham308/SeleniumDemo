@@ -1,20 +1,3 @@
-{/* <div  
-                  className="search-result w-full pt-2 s768:bg-white s768:pl-2 s768:mt-[15px] dark:s768:bg-slate-800/90 s768:shadow s768:rounded-b-lg "
-                  id="search-results"
-                > */}
-                  <div  id="search-results"  className="result-body  scrollbar-hide h-auto max-h-none s768:max-h-[400px]">
-                    {searchResults.map((result) => (
-                      <li className="result-input" key={result.id}>
-                        <a href={`/movie/${result.id}`}>
-                          <img
-                            className="image_result"
-                            src={result.avatarMovie}
-                          />
-                          {result.name}
-                        </a>
-                      </li>
-                    ))}
-                    {searchResults.length !== 0 ? (
                       <a
                         className="view-all-result"
                         style={{ display: "block" }}
